@@ -2,9 +2,21 @@ import psycopg2
 import csv
 import re
 
-conn = psycopg2.connect(host="localhost", user="matiastoro", database="anime", password="", port="5432")
+conn = psycopg2.connect(host="cc3201.dcc.uchile.cl", database="cc3201", user="cc3201", password="j'<3_cc3201", port="5440")
 
 cur = conn.cursor()
+
+
+
+
+
+
+
+
+
+
+
+
 
 cur.execute("truncate table studio restart identity cascade")
 cur.execute("truncate table anime restart identity cascade")
